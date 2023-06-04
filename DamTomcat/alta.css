@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    background-image: url('fondo.jpg');
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #34c4ac;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"],
+select,
+input[type="date"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+height: 40p; /* Ajusta el valor de height para igualar la altura de los elementos */
+box-sizing: border-box;
+
+}
+
+
+button.alta {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #287c7d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button.gestion {
+    display: block;
+    width: auto; /* Ajusta el valor de width según tu preferencia */
+    padding: 10px 15px; /* Ajusta el valor de padding para modificar el tamaño */
+    background-color: #287c7d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #48edf3;
+    color:#000000;
+}
+
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+  /* Estilos responsivos */
+@media (max-width: 600px) {
+    form {
+    max-width: 100%;
+    }
+}
