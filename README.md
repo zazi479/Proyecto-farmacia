@@ -1,7 +1,7 @@
 # Proyecto-farmacia
 
 
-#Instrucciones
+# Instrucciones
 
 Antes de acceder a la web de Login.html se debe modificar el número de conexiones de la base de datos,por defecto vienen 151 y no son suuficientes(yo pongo 2000).
 
