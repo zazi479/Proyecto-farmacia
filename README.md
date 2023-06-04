@@ -5,7 +5,7 @@
 
 Antes de acceder a la web de Login.html se debe modificar el número de conexiones de la base de datos,por defecto vienen 151 y no son suuficientes(yo pongo 2000).
 
--La base de datos recibe el nombre de "farmacia"
+- La base de datos recibe el nombre de "farmacia"
 - En la carpeta "DamTomcat" esta todo el contenido de html,css y javascript.
 - En La carpeta "Dam_tomcat" es todo lo relacionado con el Backend.
 
