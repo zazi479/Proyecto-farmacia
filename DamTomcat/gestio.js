@@ -18,10 +18,7 @@ function getTable() {
                     document.getElementById('table').innerHTML = response;
                     document.getElementById('logout').innerText = 'Volver a login'; // Cambiar el texto del botón
                     document.getElementById('alta').style.display = 'none';
-                    setTimeout(function(){
-                        window.location.href = 'login.html';
-                    }, 10000);
-
+                  
                 }else {
                     document.getElementById('table').innerHTML = response;
                 }
